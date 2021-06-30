@@ -1,9 +1,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => (
-  <header
+  <header className="Header"
     style={{
       height: `55px`,
       width: `100%`,
@@ -11,7 +12,7 @@ const Header = () => (
     }}
   >
     <div>
-      <h1>NP</h1>
+      <StaticImage src="../../images/Logo.svg" alt="A dinosaur" />
     </div>
   </header>
 )
