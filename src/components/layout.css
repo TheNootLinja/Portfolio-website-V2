@@ -6,3 +6,8 @@ body {
   box-sizing: border-box;
   background-color: #3d3a43;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
