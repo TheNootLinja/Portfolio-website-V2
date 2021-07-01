@@ -1,0 +1,25 @@
+.Header {
+  color: white;
+}
+
+.Header div {
+  margin-left: 24px;
+  height: 48px;
+  width: 41px;
+}
+
+.Header .StaticImage {
+  margin: 0;
+  padding: 0;
+}
+
+.hb-container {
+  position: absolute;
+  right: 29px;
+  top: 5px;
+  width: fit-content;
+}
+
+.secondary {
+  fill: white;
+}
