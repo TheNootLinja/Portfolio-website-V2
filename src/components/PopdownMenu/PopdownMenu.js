@@ -6,10 +6,12 @@ import "./PopdownMenu.styles.css"
 function PopdownMenu() {
   return (
     <div className="PopdownMenu">
-      <Link>Blog</Link>
-      <Link>Projects</Link>
-      <Link>Experience</Link>
-      <Link>Contact Info</Link>
+      <div className="link-container">
+        <Link>Blog</Link>
+        <Link>Projects</Link>
+        <Link>Experience</Link>
+        <Link>Contact Info</Link>
+      </div>
     </div>
   )
 }
