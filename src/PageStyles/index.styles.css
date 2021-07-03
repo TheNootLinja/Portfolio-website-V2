@@ -1,2 +1,17 @@
+.index-container {
+  color: white;
+  width: 90%;
+  margin: auto;
+}
 .name-span {
+  color: hsl(279, 57%, 48%);
+}
+
+.index-container h1 {
+  text-align: center;
+}
+
+.index-container p {
+  max-width: 500px;
+  margin: auto;
 }
