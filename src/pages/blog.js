@@ -7,8 +7,8 @@ import Seo from "../components/seo"
 
 const Page2 = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Page 2</h1>
+    <Seo title="Blog" />
+    <h1>Blog Page</h1>
   </Layout>
 )
 
