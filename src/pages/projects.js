@@ -5,11 +5,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogPage = () => (
+const ProjectsPage = () => (
   <Layout>
-    <Seo title="Blog" />
-    <h1>Blog Page</h1>
+    <Seo title="Projects" />
+    <h1>Projects Page</h1>
   </Layout>
 )
 
-export default BlogPage
+export default ProjectsPage
