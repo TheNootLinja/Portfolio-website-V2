@@ -13,6 +13,9 @@ const IndexPage = () => (
       <h1>
         Hey, I'm <span className="name-span">Nicholas Peters</span>
       </h1>
+      <div className="image-container">
+        <StaticImage src="../images/Headshot.jpg" className="headshot"></StaticImage>
+      </div>
       <p>I’m a full-stack web developer from Michigan who almost definitely is addicted to coffee 
         at this point. I have a background and education in IT and do freelance web development 
         under my company, Popular Nerd LLC.
