@@ -7,7 +7,7 @@ import "../PageStyles/contact.styles.css"
 
 const ContactPage = () => (
   <Layout>
-    <Seo title="Projects" />
+    <Seo title="Contact Me" />
     <h1 className="page-title">Contact Me</h1>
     <p className="content contact-content">Have a project you’d like my help with or a job you think I would be 
         perfect for? Fill out the form below or send me an email at the address 
