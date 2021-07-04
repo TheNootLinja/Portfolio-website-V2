@@ -1,0 +1,28 @@
+.experience-container {
+  background-color: #2a2730;
+  width: 95%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 16px 0 16px 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.job-title {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Sanchez", serif;
+}
+
+.work-date {
+  font-size: 20px;
+  color: #949494;
+  margin: 3px 0;
+  font-family: "Sanchez", serif;
+}
+
+.work-description {
+  margin: 0;
+  font-family: "Sanchez", serif;
+}
