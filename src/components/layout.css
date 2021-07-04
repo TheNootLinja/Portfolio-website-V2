@@ -11,3 +11,15 @@ a {
   color: white;
   text-decoration: none;
 }
+
+main {
+  margin-top: 67px;
+}
+
+.page-title {
+  font-family: "Allan", cursive;
+  font-size: 42px;
+  color: hsl(279, 57%, 48%);
+  text-align: center;
+  margin-top: 3px;
+}
