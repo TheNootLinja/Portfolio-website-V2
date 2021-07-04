@@ -8,11 +8,20 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { useState } from "react"
 
 import Header from "./Header/Header"
+import PopdownMenu from "./PopdownMenu/PopdownMenu"
 import "./layout.css"
 
 const Layout = ({ children }) => {
+  const [isPopdown, setIsOpen] = useState(false)
+
+  function openPopdown() {
+    setIsOpen(!isPopdown)
+    console.log(isPopdown)
+  }
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -25,10 +34,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header />
+      <Header clickFunction={openPopdown} />
+      {isPopdown && <PopdownMenu clickFunction={openPopdown} />}
       <div
         style={{
           maxWidth: 960,
+          margin: "auto",
         }}
       >
         <main>{children}</main>

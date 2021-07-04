@@ -1,0 +1,55 @@
+.index-container {
+  color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 67px;
+}
+
+.intro-h1 {
+  margin-bottom: 0;
+  font-family: "Sanchez", serif;
+  font-size: 38px;
+}
+
+.name-span {
+  color: hsl(279, 57%, 48%);
+  display: block;
+  font-family: "Chewy", cursive;
+  font-size: 43px;
+}
+
+.image-container {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.headshot {
+  height: 234px;
+  width: 236px;
+  border-radius: 5px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.index-container h1 {
+  text-align: center;
+}
+
+.index-container p {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Sanchez", serif;
+}
+
+.deco-shape {
+  background-color: hsl(260, 10%, 17%);
+  height: 460px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: -1;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}
