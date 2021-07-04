@@ -1,0 +1,51 @@
+.contact-content {
+  width: 95%;
+  margin: auto;
+}
+
+.contact-form {
+  width: fit-content;
+  margin: auto;
+}
+
+.contact-form input,
+textarea {
+  display: block;
+  width: 341px;
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  color: white;
+  font-family: "Sanchez", serif;
+}
+
+.contact-form button {
+  font-family: "Allan", cursive;
+  width: 319px;
+  height: 47px;
+  border-radius: 6px;
+  background-color: hsl(279, 57%, 48%);
+  color: white;
+  font-size: 38px;
+}
+
+.email-label {
+  color: #949494;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.email {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.email-container {
+  margin-top: 30px;
+}
+
+.button-container {
+  text-align: center;
+}
