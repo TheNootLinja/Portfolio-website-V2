@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Nicholas Peters`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A fullstack web developer with a coffee addiction.`,
+    author: `Nicholas Peters`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Allan`],
+        fonts: [`Allan`, `Sanchez`, `Chewy`],
         display: "swap",
       },
     },
