@@ -9,16 +9,19 @@ const projectArr = [
   {
     projName: "React Task Tracker",
     projStack: ["React"],
+    projDesc: "A task tracker I built with React.",
     projLink: "www.google.com",
   },
   {
     projName: "Survey Flunkie",
     projStack: ["React"],
+    projDesc: "A survey form built in html, css, and javascript.",
     projLink: "www.google.com",
   },
   {
     projName: "Gatsby Blog",
     projStack: ["Gatsby"],
+    projDesc: "A markdown blog I built using Gatsby.",
     projLink: "www.google.com",
   }
 ]
