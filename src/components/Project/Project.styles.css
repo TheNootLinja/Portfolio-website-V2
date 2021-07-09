@@ -1,0 +1,45 @@
+.project {
+  padding: 5px;
+  width: 95%;
+  margin: 0 auto 15px auto;
+  border-radius: 5px;
+  background-color: #2a2730;
+  color: white;
+  text-align: center;
+  width: 95%;
+  max-width: 400px;
+  box-sizing: border-box;
+  font-family: "Sanchez", serif;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 5px;
+}
+
+.project h2 {
+  font-size: 20px;
+  margin: 3px 0 10px 0;
+}
+
+.project ul {
+  padding: 0;
+  margin: 0;
+}
+
+.project li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project a {
+  color: #c3e6ff;
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin: 10px 0 0 0;
+}
+
+.project-image {
+  width: 338px;
+  height: 182px;
+}
