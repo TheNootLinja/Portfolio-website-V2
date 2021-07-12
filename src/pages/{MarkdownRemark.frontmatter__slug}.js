@@ -1,5 +1,7 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+
+import "../PageStyles/individualblog.styles.css"
 
 import Layout from "../components/layout"
 
@@ -12,8 +14,9 @@ export default function Template({
     <Layout>
         <div className="blog-post-container">
         <div className="blog-post">
-            <h1>{frontmatter.title}</h1>
-            <h2>{frontmatter.date}</h2>
+            <Link to="/blog">Back to blogs</Link>
+            <h1 className="blog-post-title">{frontmatter.title}</h1>
+            <h2 className="blog-post-date">{frontmatter.date}</h2>
             <div
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}

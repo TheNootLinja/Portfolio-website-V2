@@ -11,8 +11,8 @@ const BlogPage = ({
   },
 }) => {
   const Posts = edges
-  .filter(edge => !!edge.node.frontmatter.date)
-  .map(edge => <BlogPost key={edge.node.id} post={edge.node} />)
+    .filter(edge => !!edge.node.frontmatter.date)
+    .map(edge => <BlogPost key={edge.node.id} post={edge.node} />)
   return (
     <Layout>
       <Seo title="Blog" />
