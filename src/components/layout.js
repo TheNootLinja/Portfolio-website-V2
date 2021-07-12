@@ -18,7 +18,6 @@ const Layout = ({ children }) => {
 
   function openPopdown() {
     setIsOpen(!isPopdown)
-    console.log(isPopdown)
   }
 
   // const data = useStaticQuery(graphql`
