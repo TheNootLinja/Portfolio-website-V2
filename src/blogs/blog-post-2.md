@@ -1,7 +1,7 @@
 ---
 slug: "/blog/my-first-post"
 date: "07/11/2021"
-title: "My first blog post which is a very long title"
+title: "My first blog post"
 ---
 
 I'm baby succulents vape PBR&B hoodie kitsch taxidermy organic YOLO chartreuse mumblecore paleo pok pok. Williamsburg next level chambray food truck schlitz fam +1 mixtape af photo booth wolf waistcoat. Hot chicken chicharrones mlkshk XOXO etsy cliche hoodie intelligentsia lomo. Lo-fi vaporware actually artisan. Iceland distillery disrupt, mixtape man bun portland trust fund. Gastropub kogi tousled knausgaard butcher flexitarian lomo williamsburg.
