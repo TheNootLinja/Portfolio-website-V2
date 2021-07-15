@@ -17,7 +17,7 @@ const ContactPage = () => (
     <div className="email-container">
       <p className="content email-label">Business Email:</p>
       <p className="content email">nicholaspeters@popularnerd.tech</p>
-      <p>Talk to you soon!</p>
+      <p className="submit-message">Talk to you soon!</p>
     </div>
   </Layout>
 )
