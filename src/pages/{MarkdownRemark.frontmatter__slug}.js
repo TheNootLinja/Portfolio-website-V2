@@ -1,5 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
+import { motion } from 'framer-motion'
+
 
 import "../PageStyles/individualblog.styles.css"
 
@@ -12,7 +14,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-        <div className="blog-post-container">
+        <motion.div className="blog-post-container">
         <div className="blog-post">
             <Link to="/blog">Back to blogs</Link>
             <h1 className="blog-post-title">{frontmatter.title}</h1>
@@ -22,7 +24,7 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
             />
         </div>
-        </div>
+        </motion.div>
     </Layout>
   )
 }

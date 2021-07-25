@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useState } from "react"
+import { AnimatePresence } from "framer-motion"
 
 import Header from "./Header/Header"
 import PopdownMenu from "./PopdownMenu/PopdownMenu"
@@ -33,7 +34,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header clickFunction={openPopdown} />
-      {isPopdown && <PopdownMenu clickFunction={openPopdown} />}
+      <AnimatePresence>
+        {isPopdown && <PopdownMenu clickFunction={openPopdown} />}
+      </AnimatePresence>
       <div
         style={{
           maxWidth: 960,
