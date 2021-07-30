@@ -38,8 +38,8 @@ const BlogPage = ({
     <Layout>
       <Seo title="Blog" />
       <h1 className="page-title">Blog Page</h1>
-      {/* <motion.div>{Posts}</motion.div> */}
-      <BlogPostList posts={Posts} />
+      <motion.div>{Posts}</motion.div>
+      {/* <BlogPostList posts={Posts} /> */}
     </Layout>
   )
 }

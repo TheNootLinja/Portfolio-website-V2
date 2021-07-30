@@ -31,7 +31,6 @@ const ContactPage = () => (
       <input type="text" name="company" />
       <label htmlFor="description">Description of Project or Job</label>
       <textarea
-        name=""
         id="description"
         name="description"
         cols="30"

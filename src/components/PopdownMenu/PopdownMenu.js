@@ -12,7 +12,7 @@ function PopdownMenu({ clickFunction }) {
       initial={{ y: "-10rem", opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: "-10rem", opacity: 0 }}
-      transition={{ type: "spring", default: { duration: 0.5 } }}
+      transition={{ type: "spring", default: { duration: 0.4 } }}
     >
       <div className="link-container">
         <Link to="/blog" onClick={clickFunction}>
