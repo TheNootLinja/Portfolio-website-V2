@@ -28,3 +28,34 @@
 .secondary {
   fill: white;
 }
+
+nav {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .hb-container {
+    display: none;
+  }
+
+  header * {
+    display: inline;
+    font-size: 30px;
+    font-family: "Allan", cursive;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+  }
+
+  header li {
+    margin: 20px;
+  }
+
+  nav {
+    display: inline;
+    position: absolute;
+    right: 0px;
+  }
+}

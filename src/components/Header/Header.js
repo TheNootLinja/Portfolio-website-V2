@@ -36,6 +36,30 @@ const Header = ({ clickFunction }) => (
         />
       </svg>
     </div>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/blog">
+            Blog
+          </Link>
+        </li>
+        <li>
+          <Link to="/projects">
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="/experience">
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact">
+            Contact Info
+          </Link>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 
