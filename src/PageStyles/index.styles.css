@@ -53,3 +53,43 @@
   z-index: -1;
   clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }
+
+.icon-container {
+  display: none;
+}
+
+@media only screen and (min-width: 800px) {
+  .index-container p {
+    max-width: 700px;
+    font-size: 22px;
+  }
+
+  .headshot {
+    height: 350px;
+    width: 350px;
+  }
+
+  .deco-shape {
+  }
+
+  .intro-h1 {
+    font-size: 50px;
+  }
+
+  .name-span {
+    font-size: 60px;
+  }
+
+  .icon-container {
+    display: flex;
+    margin: 20px auto 0 auto;
+    width: fit-content;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    background-color: hsl(260, 10%, 17%);
+    margin: 0 5px 0 5px;
+  }
+}

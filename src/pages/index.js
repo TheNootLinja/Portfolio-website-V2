@@ -32,6 +32,11 @@ const IndexPage = () => (
         pride in everything I do and refuse to settle for anything less than the
         best I can create.
       </p>
+      <div className="icon-container">
+        <div className="icon"/>
+        <div className="icon"/>
+        <div className="icon"/>
+      </div>
     </div>
     <div className="deco-shape" />
   </Layout>
