@@ -29,3 +29,9 @@ main {
   margin: 0;
   font-family: "Sanchez", serif;
 }
+
+@media only screen and (min-width: 1300px) {
+  .index-container {
+    margin-top: 200px;
+  }
+}
