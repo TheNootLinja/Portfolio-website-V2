@@ -39,24 +39,13 @@ const Header = ({ clickFunction }) => (
     <nav>
       <ul>
         <li>
-          <Link to="/blog">
-            Blog
-          </Link>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <Link to="/projects">
-            Projects
-          </Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/experience">
-            Experience
-          </Link>
-        </li>
-        <li>
-          <Link to="/contact">
-            Contact Info
-          </Link>
+          <Link to="/experience">Experience</Link>
         </li>
       </ul>
     </nav>

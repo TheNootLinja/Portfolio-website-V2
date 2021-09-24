@@ -6,8 +6,8 @@
   background-color: #2a2730;
   color: white;
   text-align: center;
-  width: 95%;
-  max-width: 400px;
+  width: 90%;
+  max-width: 1000px;
   box-sizing: border-box;
   font-family: "Sanchez", serif;
   font-size: 16px;
@@ -42,4 +42,20 @@
 .project-image {
   width: 338px;
   height: 182px;
+}
+
+@media only screen and (min-width: 600px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+  }
+
+  .project-image {
+    margin: auto;
+  }
+
+  .project-info {
+    margin: auto;
+  }
 }
