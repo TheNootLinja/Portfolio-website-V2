@@ -114,20 +114,24 @@
 }
 
 @media only screen and (min-width: 1300px) {
+  .index-container {
+    margin-top: 150px;
+  }
+
   .image-container {
     display: none;
   }
 
   .deco-shape {
-    height: 800px;
+    height: 600px;
   }
 
   .image-2-container {
     z-index: -1;
     display: inline-block;
-    position: relative;
-    top: -415px;
-    right: -600px;
+    position: absolute;
+    top: 275px;
+    right: 150px;
   }
 
   .headshot {
@@ -140,5 +144,29 @@
 
   .deco-shape {
     z-index: -2;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .image-2-container {
+    right: 250px;
+  }
+}
+
+@media only screen and (min-width: 1925px) {
+  .image-2-container {
+    right: 380px;
+  }
+}
+
+@media only screen and (min-width: 2150px) {
+  .image-2-container {
+    right: 550px;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  .image-2-container {
+    right: 650px;
   }
 }

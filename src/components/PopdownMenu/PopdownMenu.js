@@ -24,9 +24,6 @@ function PopdownMenu({ clickFunction }) {
         <Link to="/experience" onClick={clickFunction}>
           Experience
         </Link>
-        <Link to="/contact" onClick={clickFunction}>
-          Contact Info
-        </Link>
       </div>
     </motion.div>
   )

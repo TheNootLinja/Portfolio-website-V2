@@ -14,9 +14,11 @@ function Project({project}) {
             className="project"
         >
             <StaticImage src="../images/Headshot.jpg" className="project-image"/>
-            <h2>{project.projName}</h2>
-            <a href="/">Link To Project</a>
-            <p>{project.projDesc}</p>
+            <div className="project-info">
+                <h2>{project.projName}</h2>
+                <a href="/">Link To Project</a>
+                <p>{project.projDesc}</p>
+            </div>
         </motion.div>
     )
 }
